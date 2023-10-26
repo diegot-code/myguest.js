@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --w: white;
+  --b: black;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+
+  color: black;
+  background-color: whitesmoke;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: var(--w);
+  background-color: var(--b);
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 6rem;
+}
+
+main {
+  margin-inline: 2rem;
+}
+
+label {
+  display: flex;
+  font-size: 1.5rem;
+}
+
+label input {
+  padding-right: 6rem;
+  border-radius: 0.5rem;
+}
+
+table {
+  border: 1px solid var(--b);
+  border-collapse: collapse;
+  margin-top: 1rem;
+  display: inline-table;
+  justify-content: center;
+}
+
+td,
+th {
+  border: 1px solid grey;
+  padding: 0.25rem;
+}
+
+th {
+  background-color: rgb(207, 207, 207);
+}
